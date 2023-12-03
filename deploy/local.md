@@ -1,0 +1,1 @@
+SIGNOZ_LOCAL_DB_PATH=./signoz.db ClickHouseUrl=tcp://localhost:9001/?database=signoz_traces STORAGE=clickhouse go run main.go
